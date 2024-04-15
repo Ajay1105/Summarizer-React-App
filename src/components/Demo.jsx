@@ -5,7 +5,7 @@ import { useLazyGetSummaryQuery } from "../services/article";
 
 const Demo = () => {
   const [article, setArticle] = useState({
-    url: "" ,
+    url: "https://time.com/6266679/musk-ai-open-letter/" ,
     summary: "",
   });
   const [allArticles, setAllArticles] = useState([]);
